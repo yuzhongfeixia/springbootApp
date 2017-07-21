@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<package name="com.afis.entity.automodel" />
+	</typeAliases>
+	<mappers>
+		<mapper resource="autosqlmap/MenuMapper.xml" />
+		<mapper resource="autosqlmap/OperatorMapper.xml" />
+		<mapper resource="autosqlmap/RoleMapper.xml" />
+		<mapper resource="autosqlmap/RoleOperatorMapper.xml" />
+		<mapper resource="autosqlmap/RolePermissionMapper.xml" />
+	</mappers>
+</configuration>
